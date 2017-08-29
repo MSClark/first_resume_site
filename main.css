@@ -1,0 +1,103 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a{
+  color:white;
+}
+
+a:visited{
+  color: #551A8B;
+}
+
+article{
+  margin: 20px auto;
+}
+
+h2{
+  color: #7d97ad;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #02b3e4;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  opacity: 0.8;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #202328;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.figcap-padding{
+  padding: 10px;
+}
+
+.wrap{
+  word-wrap: break-word;
+}
+
+.grey-text{
+  color: #7d97ad;
+}
+
+
+#wrapper{
+  margin: auto;
+}
+
+#navBtn{
+  font-size:30px;
+  cursor:pointer
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+#projects{
+  margin: auto;
+}
+
+#about{
+  margin: auto;
+}
+
+.title{
+  margin: 0 auto;
+}
+
+.sub-title{
+  border-bottom: 2px solid #4382e8;
+  margin:0px auto 10px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}

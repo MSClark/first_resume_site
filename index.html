@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Udacity - Matthew Clark Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel = "stylesheet" type = "text/css" href = "main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="mySidenav" class="sidenav">
+      <!-- Creates 'X' for closing the nav -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    
+    <main id="main" class="container-fluid">
+      <div class="row">
+        <span id="navBtn" class="grey-text" onclick="openNav()">&#9776; Menu</span>
+        <header>
+          <p class="text-center"><img src="udacity_mark_1.png" alt="Udacity logo" height="100" width="100"></p>
+          <h1 class="text-center title">Matthew Clark</h1>
+          <h3 class="text-center sub-title">Front end developer</h3>
+        </header>
+
+        <section id="projects">
+          <h2>Projects and Profiles</h2>
+
+          <figure class="col-sm-4 text-center">
+            <img src="udacity-logo-blue.png" alt="Udacity logo" height="100" width="100">
+            <figcaption class="figcap-padding">
+              <a class="btn btn-info btn-sm" href="https://profiles.udacity.com/p/3628118642">My Udacity Profile</a>
+            </figcaption>
+          </figure>
+
+          <figure class="col-sm-4 text-center">
+            <img src="devmatch.png" alt="Devmatch logo"  height="100" width="100">
+            <figcaption class="figcap-padding text-center">
+              <a class="btn btn-info btn-sm wrap" href="https://damp-mountain-14486.herokuapp.com/">Devmatch - an Upskills courses tutorial website</a>
+            </figcaption>
+          </figure>
+
+          <figure class="col-sm-4 text-center">
+            <img src="Github-mark.png" alt="Github logo" height="100" width="100">
+            <figcaption class="figcap-padding">
+              <a class="btn btn btn-info btn-sm" href="https://github.com/MSClark">My Github</a>
+            </figcaption>      
+          </figure>
+        </section>
+      </div>
+
+      <section class="row" id="about">
+        <div class="col-sm-12">
+          <article>
+              <h2>About me</h2>
+              <p>I am currently a student in Udacity's Fullstack Developer Nano-degree program.
+                 I have learned HTML, CSS, Bootstrap, and am moving into SQL and javascript soon.
+              </p>
+          </article>
+        </div>  
+      </section>
+    
+    </main>
+  </div>
+
+  <script>
+  // JS is for later development - side menu functionality is incomplete
+  // Changes size of nav
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>       
+</body>
+</html>
