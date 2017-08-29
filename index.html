@@ -10,7 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
+  <div id="wrapper" class="bg">
     <div id="mySidenav" class="sidenav">
       <!-- Creates 'X' for closing the nav -->
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -33,21 +33,21 @@
           <h2>Projects and Profiles</h2>
 
           <figure class="col-sm-4 text-center">
-            <img src="udacity-logo-blue.png" alt="Udacity logo" height="100" width="100">
+            <img src="udacity-logo-blue.png" alt="Udacity logo" class="img-circle" height="100" width="100">
             <figcaption class="figcap-padding">
               <a class="btn btn-info btn-sm" href="https://profiles.udacity.com/p/3628118642">My Udacity Profile</a>
             </figcaption>
           </figure>
 
           <figure class="col-sm-4 text-center">
-            <img src="devmatch.png" alt="Devmatch logo"  height="100" width="100">
+            <img src="devmatch.png" alt="Devmatch logo"  class="img-circle" height="100" width="100">
             <figcaption class="figcap-padding text-center">
               <a class="btn btn-info btn-sm wrap" href="https://damp-mountain-14486.herokuapp.com/">Devmatch - an Upskills courses tutorial website</a>
             </figcaption>
           </figure>
 
           <figure class="col-sm-4 text-center">
-            <img src="Github-mark.png" alt="Github logo" height="100" width="100">
+            <img src="github.jpg" alt="Github logo" class="img-circle" height="100" width="100">
             <figcaption class="figcap-padding">
               <a class="btn btn btn-info btn-sm" href="https://github.com/MSClark">My Github</a>
             </figcaption>      
@@ -57,17 +57,28 @@
 
       <section class="row" id="about">
         <div class="col-sm-12">
-          <article>
-              <h2>About me</h2>
-              <p>I am currently a student in Udacity's Fullstack Developer Nano-degree program.
-                 I have learned HTML, CSS, Bootstrap, and am moving into SQL and javascript soon.
-              </p>
-          </article>
+          <h2>About me</h2>
+          <p>I am currently a student in Udacity's Fullstack Developer Nano-degree program.
+              I have learned HTML, CSS, Bootstrap, and am moving into SQL and javascript soon.
+          </p>
         </div>  
+      </section>
+
+      <section class="row" id="skills">
+        <div class="col-sm-12">
+        
+        <h2>Skills</h2>
+        <p>and if you would like a more traditional resume</p>
+        </div>
       </section>
     
     </main>
   </div>
+
+  <footer class="text-center">
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017 Matthew Clark &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
 
   <script>
   // JS is for later development - side menu functionality is incomplete
