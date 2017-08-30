@@ -1,6 +1,7 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   height: 100%;
+ 
 }
 
 a{
@@ -14,6 +15,7 @@ a:visited{
 .section-header{
   color: #CBDEF1;
 }
+
 /*
  *
 Side menu
@@ -114,6 +116,19 @@ Quotes carousel
   background-color: #9BB5CB;
 }
 
+#quotes-carousel .carousel-control{
+  background-color: none;
+}
+
+.carousel-inner{
+  height: 140px;
+  margin: auto;
+}
+
+.item blockquote {
+  border-left: none; 
+  margin: 0;
+}
 
 
 
@@ -138,25 +153,52 @@ Skill bars
     color: white; 
 }
 
-.html {
+.html-bar {
   width: 75%; 
   background-color: #e34f26;
 } /* Green */
-.css {
+.css-bar {
   width: 50%; 
   background-color: #0070BA;
 } /* Blue */
-.js {
+.js-bar {
   width: 25%; 
   background-color: #EFC91E;
 } /* Red */
-.rails {
+.rails-bar {
   width: 40%; 
   background-color: #9C2E31;
 } /* Dark Grey */
-.sql{
+.sql-bar{
   width: 15%;
   background-color: 	#81B805;
+}
+
+#html-logo{
+  height: 70px; 
+  width: 70px; 
+  margin: 10px 0px;
+}
+
+#css-logo{
+  height: 70px;
+  width: 50px; 
+  margin: 10px 8px;
+}
+#js-logo{
+  height: 70px;
+  width: 50px; 
+  margin: 10px 8px;
+}
+#rails-logo{
+  height: 70px; 
+  width: 60px; 
+  margin: 10px 5px;
+}
+#sql-logo{
+  height: 70px; 
+  width: 70px; 
+  margin: 10px 0px;
 }
 
 /*
@@ -169,6 +211,10 @@ Skill bars
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   }
+
+@media screen and (max-width: 350px){
+  .carousel-inner{height: 200px;}
+}
 
 
 
