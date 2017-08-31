@@ -113,7 +113,8 @@ Quotes carousel
  */ 
 
 #quotes-carousel{
-  background-color: #9BB5CB;
+  background-color: #2D628C;
+  color: white;
 }
 
 #quotes-carousel .carousel-control{
@@ -128,6 +129,10 @@ Quotes carousel
 .item blockquote {
   border-left: none; 
   margin: 0;
+}
+
+.quote-author{
+  color: #9BB5CB;
 }
 
 
