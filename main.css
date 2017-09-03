@@ -135,6 +135,16 @@ Quotes carousel
   color: #9BB5CB;
 }
 
+/*
+ *
+ About
+ *
+ */
+
+#about{
+  display: inline-block;
+}
+
 
 /* 
  *
