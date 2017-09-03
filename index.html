@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link rel = "stylesheet" type = "text/css" href = "main.css" />
+  <link rel = "stylesheet" type ="text/css" href ="main.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-  
+<!-- TODO: make functionality for sidebar menu when needed
+           styling improvements-->
   <div id="wrapper" class="menu-background">
     <div id="mySidenav" class="sidenav">
       <!-- Creates 'X' for closing the nav -->
@@ -51,7 +52,7 @@
                       <div class="col-sm-12 text-center">
                       <!-- quote -->
                         <p>Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.</p>
-                        <small>Patrick McKenzie</small>
+                        <small class="quote-author">Patrick McKenzie</small>
                       </div>
                     </blockquote>
                   </div>
@@ -61,7 +62,7 @@
                       <div class="col-sm-12 text-center">
                         <!-- quote -->
                         <p>This too shall pass</p>
-                        <small>Edward Fitzgerald</small>
+                        <small class="quote-author">Edward Fitzgerald</small>
                       </div>
                     </blockquote>
                   </div>
@@ -71,7 +72,7 @@
                       <div class="col-sm-12 text-center">
                         <!-- quote -->
                         <p>Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.</p>
-                        <small>Martin Golding</small>
+                        <small class="quote-author">Martin Golding</small>
                       </div>
                     </blockquote>
                   </div>
@@ -81,7 +82,7 @@
                         <div class="col-sm-12 text-center">
                           <!-- quote -->
                           <p>Yearn to learn - that is the only way you will ever find success</p>
-                          <small>My father</small>
+                          <small class="quote-author">My father</small>
                         </div>
                       </blockquote>
                   </div>
@@ -136,7 +137,7 @@
 
       <!-- about me -->
       <section class="row" id="about">
-        <div class="col-sm-12 well well-sm">
+        <div class="col-sm-12 black-backgr">
           <h2 class="section-header">About me</h2>
           <p>I yearn to learn. I am currently a student in Udacity's Fullstack Developer Nano-degree program.
               I have learned HTML, CSS, Bootstrap, and am moving into SQL and javascript soon.
@@ -147,11 +148,13 @@
       <!-- skill bars - these change weekly to monthly so check back often -->
       <section class="row" id="skills">
         <div class="col-sm-12">
-          <h2 class="section-header">Web Skills</h2>
-          <h4>These change weekly to monthly so check back often!</h4>
-          <p>If you would like a full list of my skillset and experience - 
-            <a href="Matthew_S_Clark_Resume.pdf" class="btn btn-info"> My resume</a>
-          </p>
+          <div class="black-backgr">
+            <h2 class="section-header media-q-heading">Web Skills</h2>
+            <h4>These change weekly to monthly so check back often!</h4>
+            <p>If you would like a full list of my skillset and experience - 
+              <a href="Matthew_S_Clark_Resume.pdf" class="btn btn-info"> My resume</a>
+            </p>
+          </div>
         </div>
       </section>
     
