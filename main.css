@@ -113,8 +113,7 @@ Quotes carousel
  */ 
 
 #quotes-carousel{
-  background-color: #2D628C;
-  color: white;
+  background-color: #9BB5CB;
 }
 
 #quotes-carousel .carousel-control{
@@ -131,9 +130,9 @@ Quotes carousel
   margin: 0;
 }
 
-.quote-author{
-  color: #9BB5CB;
-}
+
+
+
 
 
 /* 
