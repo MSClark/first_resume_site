@@ -117,9 +117,6 @@ Quotes carousel
   color: white;
 }
 
-#quotes-carousel .carousel-control{
-  background-color: none;
-}
 
 .carousel-inner{
   height: 140px;
