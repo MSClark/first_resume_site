@@ -1,19 +1,18 @@
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   height: 100%;
- 
 }
 
-a{
+a {
   color:white;
 }
 
-a:visited{
-  color: #551A8B;
+a:visited {
+  color: #551a8b;
 }
 
-.section-header{
-  color: #CBDEF1;
+.section-header {
+  color: #cbdef1;
 }
 
 /*
@@ -22,8 +21,8 @@ Side menu
  *
  */
 
-.menu-background{
-  background-image: url("bg.jpg");
+.menu-background {
+  background-image: url("img/bg.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +36,7 @@ Side menu
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #316B99;
+  background-color: #316b99;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -53,11 +52,11 @@ Side menu
   transition: 0.3s;
 }
 
-.sidenav a:hover, .offcanvas a:focus{
+.sidenav a:hover, .offcanvas a:focus {
   color: #f1f1f1;
 }
 
-.sidenav .closebtn {
+.sidenav .close-btn {
   position: absolute;
   top: 0;
   right: 25px;
@@ -65,15 +64,15 @@ Side menu
   margin-left: 50px;
 }
 
-.grey-menu-txt{
-  color: #CBDEF1;
+.grey-menu-txt {
+  color: #cbdef1;
 }
 
-#wrapper{
+#wrapper {
   margin: auto;
 }
 
-#navBtn{
+#nav-Btn {
   font-size:30px;
   cursor:pointer
 }
@@ -83,26 +82,26 @@ Side menu
   padding: 16px;
 }
 
-#projects{
+#projects {
   margin: auto;
 }
 
-#about{
+#about {
   margin: 20px 10px;
 }
 
-.title{
+.title {
   margin: 0 auto;
-  color:#CBDEF1;
+  color:#cbdef1;
 }
 
-.sub-title{
-  border-bottom: 2px solid #2D78F4;
+.sub-title {
+  border-bottom: 2px solid #2d78f4;
   margin:0px auto 10px;
   color:#9BB5CB;
 }
 
-.figcap-padding{
+.figcap-padding {
   padding: 10px;
 }
 
@@ -112,24 +111,23 @@ Quotes carousel
  *
  */ 
 
-#quotes-carousel{
-  background-color: #2D628C;
+#quotes-carousel {
+  background-color: #2d628c;
   color: white;
 }
 
-
-.carousel-inner{
+.carousel-inner {
   height: 140px;
   margin: auto;
 }
 
-.item blockquote {
+blockquote {
   border-left: none; 
   margin: 0;
 }
 
-.quote-author{
-  color: #9BB5CB;
+.quote-author {
+  color: #9bb5cb;
 }
 
 /*
@@ -138,7 +136,7 @@ Quotes carousel
  *
  */
 
-#about{
+#about {
   display: inline-block;
 }
 
@@ -161,7 +159,7 @@ Skill bars
     color: white; 
 }
 
-.dark-well{
+.dark-well {
   background-color: #224365;
   opacity: 0.9;
   z-index: 0;
@@ -176,51 +174,50 @@ Skill bars
 } /* Green */
 .css-bar {
   width: 50%; 
-  background-color: #0070BA;
+  background-color: #0070ba;
 } /* Blue */
 .js-bar {
   width: 25%; 
-  background-color: #EFC91E;
+  background-color: #efc91e;
 } /* Red */
 .rails-bar {
   width: 40%; 
-  background-color: #9C2E31;
+  background-color: #9c2e31;
 } /* Dark Grey */
-.sql-bar{
+.sql-bar {
   width: 15%;
-  background-color: 	#81B805;
+  background-color: 	#81b805;
 }
 
-#skills{
+#skills {
   margin: auto -5px;
-  
 }
 
-#html-logo{
+#html-logo {
   height: 70px; 
   width: 70px; 
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
-#css-logo{
+#css-logo {
   height: 70px;
   width: 50px; 
   margin: 10px 8px;
 }
-#js-logo{
+#js-logo {
   height: 70px;
   width: 50px; 
   margin: 10px 8px;
 }
-#rails-logo{
+#rails-logo {
   height: 70px; 
   width: 60px; 
   margin: 10px 5px;
 }
-#sql-logo{
+#sql-logo {
   height: 70px; 
   width: 70px; 
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 /*
@@ -234,7 +231,7 @@ Skill bars
   .sidenav a {font-size: 18px;}
   }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 350px) {
   .carousel-inner{height: 200px;}
 }
 
