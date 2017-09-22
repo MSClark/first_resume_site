@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Udacity - Matthew Clark Portfolio</title>
+  <title>Matthew Clark Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel = "stylesheet" type ="text/css" href ="main.css"/>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
   <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -15,21 +16,19 @@
 <!-- TODO: make functionality for sidebar menu when needed
            styling improvements-->
   <div id="wrapper" class="menu-background">
-    <!-- <div id="mySidenav" class="sidenav">
-       Creates 'X' for closing the nav 
+     <div id="mySidenav" class="sidenav">
+      <!-- Creates 'X' for closing the nav -->
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#">Home</a>
       <a href="#">Projects</a>
       <a href="#">About</a>
       <a href="#">Contact</a>
     </div>
-  -->
-
 
     <!-- main -->
     <main id="main" class="container-fluid">
       <div class="row">
-       <!-- <span id="navBtn" class="grey-menu-txt" onclick="openNav()">&#9776; Menu</span> -->
+        <span id="navBtn" class="grey-menu-txt" onclick="openNav()">&#9776; Menu</span>
         <header>
           <p class="text-center"><img src="img/udacity_mark_1.png" alt="Udacity logo" height="100" width="100"></p>
           <h1 class="text-center title">Matthew Clark</h1>
@@ -37,7 +36,6 @@
         </header>
 
         <!-- quote carousel -->    
-        <div class="container">
           <div class="row">
             <div class="col-md-offset-2 col-md-8 text-center">
               <h3 class="section-header">A few quotes that keep me going</h3>
@@ -46,8 +44,8 @@
           <div class="row">
             <div class="col-md-offset-2 col-md-8">
               <div id="quotes-carousel" class="carousel slide" data-ride="carousel">
-                
                 <div class="carousel-inner">
+
                   <div class="item active">
                     <blockquote class="row">
                       <div class="col-sm-12 text-center">
@@ -89,11 +87,11 @@
                   </div>
 
                     <!-- left and right controls -->     
-                  <a class="left carousel-control" href="#quotes-carousel" data-slide="prev">
+                  <a class="left carousel-control" href="#quotes-carousel" data-slide="prev" role="button">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                     <span class="sr-only">Previous</span>
                   </a>
-                  <a class="right carousel-control" href="#quotes-carousel" data-slide="next">
+                  <a class="right carousel-control" href="#quotes-carousel" data-slide="next" role="button">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                     <span class="sr-only">Next</span>
                   </a>
@@ -102,7 +100,7 @@
               </div>
             </div>
           </div>
-        </div>
+        
       </div>
 
         <!-- projects -->
@@ -190,9 +188,16 @@
     <p>&copy; 2017 Matthew Clark &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 
-  <script defer>
+  <script>
   // JS is for later development - side menu functionality is incomplete
   // Changes size of nav
+  $(document).ready(function() {
+    //Set the carousel options
+    $('#quote-carousel').carousel({
+      pause: true,
+      interval: 4000,
+    });
+  });
   function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
       document.getElementById("main").style.marginLeft = "250px";
